@@ -8,8 +8,7 @@
  */
 const multipart = require("parse-multipart");
 let UUID = require("uuidjs");
-const mongoose = require('mongoose');
-const FileModel = require('./models/Files');
+const FileModel = require('./../models/Files');
 
 module.exports = (context, req) => {
   try {
